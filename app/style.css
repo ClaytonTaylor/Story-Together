@@ -1,0 +1,23 @@
+.row p {
+	line-height: 1.6em;	
+}
+.searchBar {
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.navRow {
+    display: flex;
+    flex-flow: row;
+}
+
+.parallax-container {
+      height: 10rem;
+    }
