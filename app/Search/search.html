@@ -154,8 +154,8 @@
         </div>
         <div class="col s6">
             <ul class="collapsible" data-collapsible="expandable">
-                  <li ng-repeat="Person in searchCtrl.newCrew">
-                   <div class="collapsible-header"><i class="material-icons">assignment_ind</i>{{Person}}</div>
+                  <li ng-repeat="Person in searchCtrl.NewCrew">
+                   <div class="collapsible-header"><i class="material-icons">assignment_ind</i>{{Person.Position}}</div>
                     <div class="collapsible-body white">
                         <ul style="padding: 2%">
                           <li>Name: {{Person.Name}}</li>
@@ -167,20 +167,7 @@
                         </ul>
                     </div>
                   </li>
-                  
-                   <li>
-                   <div class="collapsible-header"><i class="material-icons">assignment_ind</i>First Assistant Director (1st A.D.)</div>
-                    <div class="collapsible-body white">
-                        <ul style="padding: 2%">
-                          <li>Name: Bobby</li>
-                          <li>Gender: Male</li>
-                          <li>Location: Oklahoma City, Oklahoma</li>
-                          <li>Experience: Amatuer</li>
-                          <li>Equipment: Camera, Boom, Mic, Flash, Steady Cam, Gopro, DJI Phantom 4</li>
-                          <li>Phone: 405-625-2764</li>
-                        </ul>
-                    </div>
-                  </li>
+        
             </ul>
             
         </div>
